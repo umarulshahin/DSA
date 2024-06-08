@@ -10,6 +10,6 @@ def linear(arr,tar):
     
     
 arr=[4,1,3,6,7,8]
-tar=6
+tar=9
 linear(arr,tar)    
     
