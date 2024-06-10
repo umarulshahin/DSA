@@ -22,7 +22,7 @@ def povit_place(arr,first,last):
             
             arr[left],arr[right] = arr[right],arr[left]
     arr[last],arr[left] = arr[left],arr[last]
-    return last
+    return left
 def quicksort(arr,first,last):
     
     if first<last:
